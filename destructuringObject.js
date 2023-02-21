@@ -17,5 +17,9 @@ const person2 = { ...person };
 /* adding new property to a object */
 person2.isMale = true;
 
-console.log(person2);
+// console.log(person2);
 
+
+const { p } = person;
+const [number] = p;
+console.log(number);
